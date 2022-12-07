@@ -1,0 +1,52 @@
+Clone mslearn-python-products 
+Show that python is not installed locally (fake it) 
+Add dev container configuration files 
+Explain devcontainer.json 
+Rebuild and reopen in container 
+
+Show that python is there... 
+    Python –version 
+    Versions matches what is in devcontainer.json 
+        Which python 
+
+Change sidebar location and theme 
+Rebuild Container 
+
+Try to run the app – fails – needs pip install 
+Add pip install to postCreateCommand 
+Rebuild Container 
+
+Automatically start project with postStartCommand 
+Rebuild Container 
+
+Add Jinja Extension 
+Rebuild Container 
+
+Port forwarding 
+Forward port 5000 
+
+Port Attributes 
+Name the port 
+
+Remove remoteUser 
+Rebuild 
+
+We are now running as root 
+Rebuild container 
+
+Add dotfiles 
+Rebuild container 
+
+Talk about default shell (bash) and how to switch to zsh 
+
+Install cmatrix via postCreate 
+Rebuild container 
+
+git config --global init.defaultBranch main 
+Publish to GitHub 
+
+Open in Codespaces 
+
+Show that app runs just fine 
+ 
+Slides – Talk about the difference between Bind / Volume mounts...
